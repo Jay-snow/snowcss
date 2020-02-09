@@ -59,7 +59,19 @@ html {
   .column {
     flex: 1;
   }
+
+  ._25 {
+    flex: 2.5;
+  }
+  ._55 {
+    flex: 5.5;
+  }
+  ._20 {
+    flex: 2;
+  }
+
 }
+
 
 /***********************\
 **                     **
@@ -252,6 +264,10 @@ a:hover {
 
 [hidden] {
   display: none !important;
+}
+
+[bordered] {
+  border: 1px solid black;
 }
 
  ul, li {
