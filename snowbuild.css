@@ -19,12 +19,10 @@ Components
 -Code card
 
 */
-
 html {
   /* font-family: Arial, Helvetica, sans-serif; */
   font-family: Georgia, serif;
   box-sizing: border-box;
-
 }
 
 *,
@@ -38,7 +36,6 @@ html {
 **      GRID SYSTEM    **
 **                     **
 \**********************/
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -71,15 +68,12 @@ html {
   ._55 {
     flex: 5.5;
   }
-
 }
-
 /***********************\
 **                     **
 **      TYPOGRAPHY     **
 **                     **
 \**********************/
-
 .text-center {
   text-align: center;
 }
@@ -97,7 +91,6 @@ html {
 **      SIZING         **
 **                     **
 \**********************/
-
 .w-25 {
   width: 25%;
 }
@@ -131,7 +124,6 @@ html {
 }
 
 /** MARGINS **/
-
 .mx-auto {
   margin: 0 auto;
 }
@@ -161,14 +153,17 @@ html {
   color: #000 !important;
   background-color: #f2f9fe !important;
 }
+
 .button-4 {
   color: #000 !important;
   background-color: #d2eafd !important;
 }
+
 .button-3 {
   color: #000 !important;
   background-color: #a6d4fa !important;
 }
+
 .button-2 {
   color: #000 !important;
   background-color: #79bff8 !important;
@@ -192,8 +187,8 @@ button {
 }
 
 pre {
-  background-color:lightgrey;
-  padding:10px;
+  background-color: lightgrey;
+  padding: 10px;
 }
 
 a.button {
@@ -261,7 +256,7 @@ h6 {
 
 a {
   text-decoration: none;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
   color: #2196f3;
   font-weight: bolder;
   padding: 0.2em 0.4em;
@@ -288,10 +283,8 @@ li {
 }
 
 /* Mobile first styles go here */
-
 @media screen and (min-width: 800px) {
   /* Desktop styles go here */
-
   h1 {
     font-size: 5em;
   }
@@ -302,3 +295,5 @@ li {
     line-height: 1.3em;
   }
 }
+
+/*# sourceMappingURL=snowbuild.css.map */
